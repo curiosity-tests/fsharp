@@ -51,9 +51,6 @@
 
 name: "Agentic State Machine — Diagram Generator"
 on:
-  schedule:
-  - cron: "0 0 */7 * *"
-    # Friendly format: every 7d
   workflow_dispatch:
     inputs:
       aw_context:

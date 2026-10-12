@@ -53,9 +53,6 @@
 
 name: "PR Tooling Safety Check"
 on:
-  schedule:
-  - cron: "20 */1 * * *"
-    # Friendly format: every 1h (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

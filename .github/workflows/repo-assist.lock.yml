@@ -62,9 +62,6 @@
 
 name: "Repo Assist"
 on:
-  schedule:
-  - cron: "30 */12 * * *"
-    # Friendly format: every 12h (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

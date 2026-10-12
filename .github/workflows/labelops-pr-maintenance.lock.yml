@@ -54,9 +54,6 @@
 
 name: "LabelOps — PR Maintenance"
 on:
-  schedule:
-  - cron: "49 */3 * * *"
-    # Friendly format: every 3h (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
